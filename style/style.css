@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #21252a;
+	font-family: monospace;
+}
+
+.intro {
+	height: 100vh;
+	color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile {
+	margin-top: -15vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.profile .pfp {
+	width: min(calc(64px + 10vw), 128px);
+	height: min(calc(64px + 10vw), 128px);
+	background-image: url("../res/cube.gif");
+	background-size: cover;
+}
+
+.profile .name {
+	font-size: min(calc(2em + 2vw), 48px);
+}
+
+.desc {
+	width: min(80vw, 800px);
+	font-size: max(calc(1em + 0.7vw), 18px);
+	text-align: center;
+}
