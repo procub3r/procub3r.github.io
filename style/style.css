@@ -15,7 +15,7 @@
 }
 
 .profile {
-	margin-top: -15vh;
+	margin-top: -12vh;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -36,4 +36,5 @@
 	width: min(80vw, 800px);
 	font-size: max(calc(1em + 0.7vw), 18px);
 	text-align: center;
+	line-height: 150%;
 }
